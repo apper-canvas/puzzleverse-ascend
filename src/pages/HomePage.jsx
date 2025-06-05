@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
     import HomePageTemplate from '../components/templates/HomePageTemplate';
 
     const HomePage = () => {
+      const navigate = useNavigate();
       const [sidebarExpanded, setSidebarExpanded] = useState(false);
       const [difficulty, setDifficulty] = useState('medium');
 
@@ -17,13 +19,13 @@ import { useState } from 'react';
           id: 'crossword', 
           name: 'Crossword', 
           icon: 'Hash', 
-          color: 'text-puzzle-crossword',
+color: 'text-puzzle-crossword',
           available: false 
         },
-{ 
+        { 
           id: 'jigsaw', 
           name: 'Jigsaw', 
-          icon: 'Puzzle', 
+          icon: 'Puzzle',
           color: 'text-puzzle-jigsaw',
           available: true 
         },
@@ -44,11 +46,21 @@ import { useState } from 'react';
       ];
 
       const difficultyOptions = [
-        { value: 'easy', label: 'Easy', color: 'bg-green-500' },
+{ value: 'easy', label: 'Easy', color: 'bg-green-500' },
         { value: 'medium', label: 'Medium', color: 'bg-yellow-500' },
         { value: 'hard', label: 'Hard', color: 'bg-orange-500' },
         { value: 'expert', label: 'Expert', color: 'bg-red-500' }
       ];
+
+      const handlePuzzleClick = (puzzleType) => {
+        if (puzzleType.available) {
+          if (puzzleType.id === 'jigsaw') {
+            // Navigate to jigsaw puzzle with default puzzle ID
+            navigate('/jigsaw/1');
+          }
+          // Add other puzzle type navigation here when available
+        }
+      };
 
       return (
         <HomePageTemplate
@@ -58,6 +70,7 @@ import { useState } from 'react';
           difficulty={difficulty}
           setDifficulty={setDifficulty}
           difficultyOptions={difficultyOptions}
+          onPuzzleClick={handlePuzzleClick}
         />
       );
     };

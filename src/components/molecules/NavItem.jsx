@@ -2,16 +2,22 @@ import React from 'react';
 import Icon from '../atoms/Icon';
 import Text from '../atoms/Text';
 
-const NavItem = ({ puzzle, expanded }) => {
+const NavItem = ({ puzzle, expanded, onClick }) => {
   const itemClasses = `flex items-center p-3 rounded-xl cursor-pointer transition-all duration-200 ${
     puzzle.available 
       ? 'hover:bg-surface-100 text-surface-700 hover:text-primary' 
       : 'text-surface-400 cursor-not-allowed'
   }`;
 
-  return (
+  const handleClick = () => {
+    if (puzzle.available && onClick) {
+      onClick(puzzle);
+    }
+  };
+
+return (
     <div className="relative group">
-      <div className={itemClasses}>
+      <div className={itemClasses} onClick={handleClick}>
         <Icon name={puzzle.icon} className={`w-6 h-6 ${puzzle.color}`} />
         {expanded && (
           <Text as="span" className="ml-3 font-medium">{puzzle.name}</Text>
