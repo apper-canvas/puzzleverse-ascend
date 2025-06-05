@@ -1,14 +1,15 @@
 import { Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
-    import HomePage from './pages/HomePage';
+import HomePage from './pages/HomePage';
 import NotFound from './pages/NotFound'
-
+import JigsawPuzzlePage from './pages/JigsawPuzzlePage';
 function App() {
   return (
     <>
-      <Routes>
+<Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/jigsaw/:puzzleId" element={<JigsawPuzzlePage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <ToastContainer
