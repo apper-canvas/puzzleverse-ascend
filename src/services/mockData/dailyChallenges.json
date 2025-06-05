@@ -1,0 +1,392 @@
+[
+  {
+    "id": "dc1",
+    "date": "2024-01-15",
+    "puzzleId": "1",
+    "participants": 2847,
+    "topScores": [
+      {
+        "playerId": "player1",
+        "playerName": "PuzzleMaster",
+        "score": 9850,
+        "timeCompleted": "03:42"
+      },
+      {
+        "playerId": "player2", 
+        "playerName": "BrainTwister",
+        "score": 9720,
+        "timeCompleted": "04:15"
+      },
+      {
+        "playerId": "player3",
+        "playerName": "LogicLord",
+        "score": 9680,
+        "timeCompleted": "04:28"
+      }
+    ]
+  },
+  {
+    "id": "dc2",
+    "date": "2024-01-14",
+    "puzzleId": "5",
+    "participants": 3156,
+    "topScores": [
+      {
+        "playerId": "player4",
+        "playerName": "WordWizard",
+        "score": 9920,
+        "timeCompleted": "02:18"
+      },
+      {
+        "playerId": "player5",
+        "playerName": "CrosswordKing",
+        "score": 9890,
+        "timeCompleted": "02:35"
+      },
+      {
+        "playerId": "player6",
+        "playerName": "VocabViper",
+        "score": 9840,
+        "timeCompleted": "02:52"
+      }
+    ]
+  },
+  {
+    "id": "dc3",
+    "date": "2024-01-13",
+    "puzzleId": "6",
+    "participants": 2234,
+    "topScores": [
+      {
+        "playerId": "player7",
+        "playerName": "JigsawJedi",
+        "score": 9750,
+        "timeCompleted": "15:32"
+      },
+      {
+        "playerId": "player8",
+        "playerName": "PiecePlacer",
+        "score": 9680,
+        "timeCompleted": "16:45"
+      },
+      {
+        "playerId": "player9",
+        "playerName": "PuzzlePro",
+        "score": 9620,
+        "timeCompleted": "17:23"
+      }
+    ]
+  },
+  {
+    "id": "dc4",
+    "date": "2024-01-12",
+    "puzzleId": "7",
+    "participants": 1876,
+    "topScores": [
+      {
+        "playerId": "player10",
+        "playerName": "LogicLegend",
+        "score": 9880,
+        "timeCompleted": "08:15"
+      },
+      {
+        "playerId": "player11",
+        "playerName": "ReasonRanger",
+        "score": 9820,
+        "timeCompleted": "09:02"
+      },
+      {
+        "playerId": "player12",
+        "playerName": "ThinkTank",
+        "score": 9760,
+        "timeCompleted": "09:48"
+      }
+    ]
+  },
+  {
+    "id": "dc5",
+    "date": "2024-01-11",
+    "puzzleId": "8",
+    "participants": 4521,
+    "topScores": [
+      {
+        "playerId": "player13",
+        "playerName": "TriviaChamp",
+        "score": 9950,
+        "timeCompleted": "01:45"
+      },
+      {
+        "playerId": "player14",
+        "playerName": "QuizQueen",
+        "score": 9900,
+        "timeCompleted": "02:03"
+      },
+      {
+        "playerId": "player15",
+        "playerName": "FactFinder",
+        "score": 9875,
+        "timeCompleted": "02:12"
+      }
+    ]
+  },
+  {
+    "id": "dc6",
+    "date": "2024-01-10",
+    "puzzleId": "2",
+    "participants": 3678,
+    "topScores": [
+      {
+        "playerId": "player16",
+        "playerName": "NumberNinja",
+        "score": 9790,
+        "timeCompleted": "06:25"
+      },
+      {
+        "playerId": "player17",
+        "playerName": "SudokuSage",
+        "score": 9745,
+        "timeCompleted": "07:11"
+      },
+      {
+        "playerId": "player18",
+        "playerName": "GridGuru",
+        "score": 9700,
+        "timeCompleted": "07:38"
+      }
+    ]
+  },
+  {
+    "id": "dc7",
+    "date": "2024-01-09",
+    "puzzleId": "11",
+    "participants": 2943,
+    "topScores": [
+      {
+        "playerId": "player19",
+        "playerName": "LetterLord",
+        "score": 9860,
+        "timeCompleted": "04:22"
+      },
+      {
+        "playerId": "player20",
+        "playerName": "ClueConqueror",
+        "score": 9815,
+        "timeCompleted": "04:56"
+      },
+      {
+        "playerId": "player21",
+        "playerName": "WordWarrior",
+        "score": 9780,
+        "timeCompleted": "05:18"
+      }
+    ]
+  },
+  {
+    "id": "dc8",
+    "date": "2024-01-08",
+    "puzzleId": "12",
+    "participants": 1998,
+    "topScores": [
+      {
+        "playerId": "player22",
+        "playerName": "ImageMaster",
+        "score": 9920,
+        "timeCompleted": "12:45"
+      },
+      {
+        "playerId": "player23",
+        "playerName": "PieceProdigy",
+        "score": 9880,
+        "timeCompleted": "13:32"
+      },
+      {
+        "playerId": "player24",
+        "playerName": "VisualVirtuoso",
+        "score": 9835,
+        "timeCompleted": "14:08"
+      }
+    ]
+  },
+  {
+    "id": "dc9",
+    "date": "2024-01-07",
+    "puzzleId": "13",
+    "participants": 1654,
+    "topScores": [
+      {
+        "playerId": "player25",
+        "playerName": "PatternPro",
+        "score": 9725,
+        "timeCompleted": "11:20"
+      },
+      {
+        "playerId": "player26",
+        "playerName": "LogicLuminary",
+        "score": 9680,
+        "timeCompleted": "12:05"
+      },
+      {
+        "playerId": "player27",
+        "playerName": "ReasonRuler",
+        "score": 9640,
+        "timeCompleted": "12:47"
+      }
+    ]
+  },
+  {
+    "id": "dc10",
+    "date": "2024-01-06",
+    "puzzleId": "14",
+    "participants": 5432,
+    "topScores": [
+      {
+        "playerId": "player28",
+        "playerName": "KnowledgeKing",
+        "score": 9975,
+        "timeCompleted": "01:28"
+      },
+      {
+        "playerId": "player29",
+        "playerName": "InfoIcon",
+        "score": 9950,
+        "timeCompleted": "01:42"
+      },
+      {
+        "playerId": "player30",
+        "playerName": "DataDynamo",
+        "score": 9925,
+        "timeCompleted": "01:55"
+      }
+    ]
+  },
+  {
+    "id": "dc11",
+    "date": "2024-01-05",
+    "puzzleId": "3",
+    "participants": 2876,
+    "topScores": [
+      {
+        "playerId": "player31",
+        "playerName": "HardcoreSolver",
+        "score": 9650,
+        "timeCompleted": "18:25"
+      },
+      {
+        "playerId": "player32",
+        "playerName": "ExpertElite",
+        "score": 9590,
+        "timeCompleted": "19:33"
+      },
+      {
+        "playerId": "player33",
+        "playerName": "ChallengeMaster",
+        "score": 9540,
+        "timeCompleted": "20:12"
+      }
+    ]
+  },
+  {
+    "id": "dc12",
+    "date": "2024-01-04",
+    "puzzleId": "9",
+    "participants": 3245,
+    "topScores": [
+      {
+        "playerId": "player34",
+        "playerName": "QuickSolver",
+        "score": 9890,
+        "timeCompleted": "02:58"
+      },
+      {
+        "playerId": "player35",
+        "playerName": "SpeedySudoku",
+        "score": 9845,
+        "timeCompleted": "03:22"
+      },
+      {
+        "playerId": "player36",
+        "playerName": "RapidReasoner",
+        "score": 9800,
+        "timeCompleted": "03:45"
+      }
+    ]
+  },
+  {
+    "id": "dc13",
+    "date": "2024-01-03",
+    "puzzleId": "10",
+    "participants": 4123,
+    "topScores": [
+      {
+        "playerId": "player37",
+        "playerName": "MediumMaster",
+        "score": 9780,
+        "timeCompleted": "07:45"
+      },
+      {
+        "playerId": "player38",
+        "playerName": "BalanceBearer",
+        "score": 9735,
+        "timeCompleted": "08:12"
+      },
+      {
+        "playerId": "player39",
+        "playerName": "SteadySolver",
+        "score": 9690,
+        "timeCompleted": "08:38"
+      }
+    ]
+  },
+  {
+    "id": "dc14",
+    "date": "2024-01-02",
+    "puzzleId": "4",
+    "participants": 1876,
+    "topScores": [
+      {
+        "playerId": "player40",
+        "playerName": "ExpertExtreme",
+        "score": 9425,
+        "timeCompleted": "35:42"
+      },
+      {
+        "playerId": "player41",
+        "playerName": "UltimateUser",
+        "score": 9380,
+        "timeCompleted": "37:15"
+      },
+      {
+        "playerId": "player42",
+        "playerName": "SupremeSolver",
+        "score": 9335,
+        "timeCompleted": "38:52"
+      }
+    ]
+  },
+  {
+    "id": "dc15",
+    "date": "2024-01-01",
+    "puzzleId": "15",
+    "participants": 6789,
+    "topScores": [
+      {
+        "playerId": "player43",
+        "playerName": "NewYearNinja",
+        "score": 9200,
+        "timeCompleted": "45:30"
+      },
+      {
+        "playerId": "player44",
+        "playerName": "ResolutionRuler",
+        "score": 9150,
+        "timeCompleted": "47:18"
+      },
+      {
+        "playerId": "player45",
+        "playerName": "ChampionCelebrator",
+        "score": 9100,
+        "timeCompleted": "49:05"
+      }
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "puzzleId": "1",
+    "startTime": "2024-01-15T10:30:00Z",
+    "endTime": "2024-01-15T10:45:32Z",
+    "completed": true,
+    "score": 9250,
+    "hintsUsed": 2,
+    "moves": [
+      {"row": 0, "col": 2, "value": 4, "timestamp": "2024-01-15T10:31:15Z"},
+      {"row": 0, "col": 3, "value": 6, "timestamp": "2024-01-15T10:31:45Z"},
+      {"row": 1, "col": 1, "value": 7, "timestamp": "2024-01-15T10:32:20Z"}
+    ]
+  },
+  {
+    "puzzleId": "2",
+    "startTime": "2024-01-15T11:00:00Z",
+    "endTime": null,
+    "completed": false,
+    "score": 0,
+    "hintsUsed": 0,
+    "moves": [
+      {"row": 0, "col": 0, "value": 1, "timestamp": "2024-01-15T11:02:30Z"},
+      {"row": 0, "col": 1, "value": 3, "timestamp": "2024-01-15T11:03:15Z"}
+    ]
+  },
+  {
+    "puzzleId": "5",
+    "startTime": "2024-01-14T13:00:00Z",
+    "endTime": "2024-01-14T13:08:45Z",
+    "completed": true,
+    "score": 8950,
+    "hintsUsed": 1,
+    "moves": [
+      {"word": "CAT", "position": "1-across", "timestamp": "2024-01-14T13:02:15Z"},
+      {"word": "DOG", "position": "4-across", "timestamp": "2024-01-14T13:04:30Z"}
+    ]
+  },
+  {
+    "puzzleId": "6",
+    "startTime": "2024-01-13T14:00:00Z",
+    "endTime": "2024-01-13T14:25:30Z",
+    "completed": true,
+    "score": 9150,
+    "hintsUsed": 0,
+    "moves": [
+      {"pieceId": "piece-1", "position": {"x": 0, "y": 0}, "timestamp": "2024-01-13T14:01:00Z"},
+      {"pieceId": "piece-2", "position": {"x": 1, "y": 0}, "timestamp": "2024-01-13T14:01:30Z"}
+    ]
+  },
+  {
+    "puzzleId": "7",
+    "startTime": "2024-01-12T15:00:00Z",
+    "endTime": "2024-01-12T15:12:20Z",
+    "completed": true,
+    "score": 8750,
+    "hintsUsed": 3,
+    "moves": [
+      {"row": 0, "col": 0, "value": 1, "timestamp": "2024-01-12T15:02:00Z"},
+      {"row": 0, "col": 1, "value": 1, "timestamp": "2024-01-12T15:02:30Z"}
+    ]
+  },
+  {
+    "puzzleId": "8",
+    "startTime": "2024-01-11T16:00:00Z",
+    "endTime": "2024-01-11T16:03:45Z",
+    "completed": true,
+    "score": 9450,
+    "hintsUsed": 0,
+    "moves": [
+      {"questionIndex": 0, "selectedAnswer": 2, "timestamp": "2024-01-11T16:01:15Z"},
+      {"questionIndex": 1, "selectedAnswer": 1, "timestamp": "2024-01-11T16:02:00Z"}
+    ]
+  },
+  {
+    "puzzleId": "9",
+    "startTime": "2024-01-10T17:00:00Z",
+    "endTime": "2024-01-10T17:06:15Z",
+    "completed": true,
+    "score": 9350,
+    "hintsUsed": 1,
+    "moves": [
+      {"row": 0, "col": 0, "value": 1, "timestamp": "2024-01-10T17:01:00Z"},
+      {"row": 0, "col": 2, "value": 3, "timestamp": "2024-01-10T17:01:45Z"}
+    ]
+  },
+  {
+    "puzzleId": "10",
+    "startTime": "2024-01-09T18:00:00Z",
+    "endTime": null,
+    "completed": false,
+    "score": 0,
+    "hintsUsed": 0,
+    "moves": [
+      {"row": 0, "col": 0, "value": 9, "timestamp": "2024-01-09T18:02:00Z"}
+    ]
+  },
+  {
+    "puzzleId": "11",
+    "startTime": "2024-01-08T19:00:00Z",
+    "endTime": "2024-01-08T19:07:30Z",
+    "completed": true,
+    "score": 8850,
+    "hintsUsed": 2,
+    "moves": [
+      {"word": "SHARK", "position": "1-across", "timestamp": "2024-01-08T19:02:00Z"},
+      {"word": "BEE", "position": "5-across", "timestamp": "2024-01-08T19:04:15Z"}
+    ]
+  },
+  {
+    "puzzleId": "12",
+    "startTime": "2024-01-07T20:00:00Z",
+    "endTime": "2024-01-07T20:18:45Z",
+    "completed": true,
+    "score": 9050,
+    "hintsUsed": 0,
+    "moves": [
+      {"pieceId": "piece-10", "position": {"x": 2, "y": 1}, "timestamp": "2024-01-07T20:01:30Z"},
+      {"pieceId": "piece-15", "position": {"x": 3, "y": 1}, "timestamp": "2024-01-07T20:02:15Z"}
+    ]
+  },
+  {
+    "puzzleId": "13",
+    "startTime": "2024-01-06T21:00:00Z",
+    "endTime": "2024-01-06T21:15:20Z",
+    "completed": true,
+    "score": 8650,
+    "hintsUsed": 4,
+    "moves": [
+      {"row": 1, "col": 2, "value": 1, "timestamp": "2024-01-06T21:03:00Z"},
+      {"row": 1, "col": 3, "value": 2, "timestamp": "2024-01-06T21:03:45Z"}
+    ]
+  },
+  {
+    "puzzleId": "14",
+    "startTime": "2024-01-05T22:00:00Z",
+    "endTime": "2024-01-05T22:02:30Z",
+    "completed": true,
+    "score": 9650,
+    "hintsUsed": 0,
+    "moves": [
+      {"questionIndex": 0, "selectedAnswer": 2, "timestamp": "2024-01-05T22:00:30Z"},
+      {"questionIndex": 1, "selectedAnswer": 1, "timestamp": "2024-01-05T22:01:15Z"},
+      {"questionIndex": 2, "selectedAnswer": 1, "timestamp": "2024-01-05T22:01:45Z"},
+      {"questionIndex": 3, "selectedAnswer": 2, "timestamp": "2024-01-05T22:02:15Z"}
+    ]
+  },
+  {
+    "puzzleId": "15",
+    "startTime": "2024-01-04T23:00:00Z",
+    "endTime": null,
+    "completed": false,
+    "score": 0,
+    "hintsUsed": 5,
+    "moves": [
+      {"row": 4, "col": 4, "value": 5, "timestamp": "2024-01-04T23:05:00Z"}
+    ]
+  },
+  {
+    "puzzleId": "3",
+    "startTime": "2024-01-03T10:30:00Z",
+    "endTime": "2024-01-03T11:15:45Z",
+    "completed": true,
+    "score": 8350,
+    "hintsUsed": 6,
+    "moves": [
+      {"row": 0, "col": 5, "value": 9, "timestamp": "2024-01-03T10:35:00Z"},
+      {"row": 0, "col": 6, "value": 6, "timestamp": "2024-01-03T10:36:30Z"}
+    ]
+  },
+  {
+    "puzzleId": "4",
+    "startTime": "2024-01-02T12:00:00Z",
+    "endTime": null,
+    "completed": false,
+    "score": 0,
+    "hintsUsed": 8,
+    "moves": [
+      {"row": 0, "col": 7, "value": 1, "timestamp": "2024-01-02T12:10:00Z"},
+      {"row": 1, "col": 0, "value": 4, "timestamp": "2024-01-02T12:15:30Z"}
+    ]
+  }
+]

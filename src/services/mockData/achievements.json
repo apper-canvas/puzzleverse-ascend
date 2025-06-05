@@ -1,0 +1,226 @@
+[
+  {
+    "id": "first-puzzle",
+    "name": "First Steps",
+    "description": "Complete your first puzzle",
+    "icon": "Trophy",
+    "requirement": {
+      "type": "puzzle_completed",
+      "count": 1
+    },
+    "unlockedAt": "2024-01-15T10:45:32Z"
+  },
+  {
+    "id": "sudoku-master",
+    "name": "Sudoku Master",
+    "description": "Complete 10 Sudoku puzzles",
+    "icon": "Grid3X3",
+    "requirement": {
+      "type": "puzzle_completed",
+      "puzzleType": "sudoku",
+      "count": 10
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "speed-demon",
+    "name": "Speed Demon",
+    "description": "Complete a puzzle in under 2 minutes",
+    "icon": "Zap",
+    "requirement": {
+      "type": "completion_time",
+      "maxTime": 120
+    },
+    "unlockedAt": "2024-01-11T16:03:45Z"
+  },
+  {
+    "id": "perfect-solver",
+    "name": "Perfect Solver",
+    "description": "Complete a puzzle without using hints",
+    "icon": "Star",
+    "requirement": {
+      "type": "no_hints_used"
+    },
+    "unlockedAt": "2024-01-13T14:25:30Z"
+  },
+  {
+    "id": "daily-challenger",
+    "name": "Daily Challenger",
+    "description": "Complete 7 daily challenges",
+    "icon": "Calendar",
+    "requirement": {
+      "type": "daily_challenges",
+      "count": 7
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "crossword-king",
+    "name": "Crossword King",
+    "description": "Complete 5 crossword puzzles",
+    "icon": "Hash",
+    "requirement": {
+      "type": "puzzle_completed",
+      "puzzleType": "crossword",
+      "count": 5
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "jigsaw-genius",
+    "name": "Jigsaw Genius",
+    "description": "Complete 3 jigsaw puzzles",
+    "icon": "Puzzle",
+    "requirement": {
+      "type": "puzzle_completed",
+      "puzzleType": "jigsaw",
+      "count": 3
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "logic-lord",
+    "name": "Logic Lord",
+    "description": "Complete 5 logic puzzles",
+    "icon": "Brain",
+    "requirement": {
+      "type": "puzzle_completed",
+      "puzzleType": "logic",
+      "count": 5
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "trivia-titan",
+    "name": "Trivia Titan",
+    "description": "Answer 50 trivia questions correctly",
+    "icon": "HelpCircle",
+    "requirement": {
+      "type": "trivia_correct_answers",
+      "count": 50
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "streak-seeker",
+    "name": "Streak Seeker",
+    "description": "Maintain a 14-day solving streak",
+    "icon": "Flame",
+    "requirement": {
+      "type": "daily_streak",
+      "count": 14
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "expert-elite",
+    "name": "Expert Elite",
+    "description": "Complete an expert difficulty puzzle",
+    "icon": "Award",
+    "requirement": {
+      "type": "difficulty_completed",
+      "difficulty": "expert"
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "puzzle-pioneer",
+    "name": "Puzzle Pioneer",
+    "description": "Try all 5 puzzle types",
+    "icon": "Compass",
+    "requirement": {
+      "type": "all_puzzle_types"
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "hundred-club",
+    "name": "Hundred Club",
+    "description": "Complete 100 puzzles total",
+    "icon": "Target",
+    "requirement": {
+      "type": "puzzle_completed",
+      "count": 100
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "night-owl",
+    "name": "Night Owl",
+    "description": "Complete a puzzle between midnight and 6 AM",
+    "icon": "Moon",
+    "requirement": {
+      "type": "time_of_day",
+      "startHour": 0,
+      "endHour": 6
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "early-bird",
+    "name": "Early Bird",
+    "description": "Complete a puzzle between 5 AM and 8 AM",
+    "icon": "Sun",
+    "requirement": {
+      "type": "time_of_day",
+      "startHour": 5,
+      "endHour": 8
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "weekend-warrior",
+    "name": "Weekend Warrior",
+    "description": "Complete 20 puzzles on weekends",
+    "icon": "Calendar",
+    "requirement": {
+      "type": "weekend_completions",
+      "count": 20
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "perfectionist",
+    "name": "Perfectionist",
+    "description": "Complete 10 puzzles with perfect scores",
+    "icon": "CheckCircle",
+    "requirement": {
+      "type": "perfect_scores",
+      "count": 10
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "marathon-solver",
+    "name": "Marathon Solver",
+    "description": "Spend 60 minutes solving puzzles in one session",
+    "icon": "Clock",
+    "requirement": {
+      "type": "session_duration",
+      "minMinutes": 60
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "social-solver",
+    "name": "Social Solver",
+    "description": "Share 5 completed puzzles",
+    "icon": "Share",
+    "requirement": {
+      "type": "shares",
+      "count": 5
+    },
+    "unlockedAt": null
+  },
+  {
+    "id": "comeback-kid",
+    "name": "Comeback Kid",
+    "description": "Complete a puzzle after taking a 7-day break",
+    "icon": "RotateCcw",
+    "requirement": {
+      "type": "comeback_completion",
+      "breakDays": 7
+    },
+    "unlockedAt": null
+  }
+]
