@@ -57,6 +57,16 @@ class PuzzleService {
     const deleted = this.data.splice(index, 1)[0]
     return { ...deleted }
   }
+async getJigsawPuzzles() {
+    await delay(250)
+    return this.data.filter(item => item.type === 'jigsaw').map(item => ({ ...item }))
+  }
+
+  async getJigsawByDifficulty(difficulty) {
+    await delay(250)
+    const jigsawPuzzles = this.data.filter(item => item.type === 'jigsaw' && item.difficulty === difficulty)
+    return jigsawPuzzles.map(item => ({ ...item }))
+  }
 }
 
 export default new PuzzleService()

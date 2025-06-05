@@ -20,12 +20,12 @@ import { useState } from 'react';
           color: 'text-puzzle-crossword',
           available: false 
         },
-        { 
+{ 
           id: 'jigsaw', 
           name: 'Jigsaw', 
           icon: 'Puzzle', 
           color: 'text-puzzle-jigsaw',
-          available: false 
+          available: true 
         },
         { 
           id: 'logic', 

@@ -112,11 +112,89 @@
     opacity: 0;
   }
 }
+/* Jigsaw Puzzle Styles */
+.jigsaw-canvas {
+  @apply border-2 border-surface-300 rounded-xl bg-surface-50 shadow-inner cursor-grab;
+}
+
+.jigsaw-canvas:active {
+  @apply cursor-grabbing;
+}
+
+.jigsaw-piece {
+  @apply cursor-pointer transition-all duration-200 hover:scale-105;
+}
+
+.jigsaw-piece.selected {
+  @apply ring-2 ring-primary ring-opacity-50 shadow-lg;
+}
+
+.jigsaw-piece.dragging {
+  @apply scale-110 shadow-xl z-50;
+}
+
+.piece-tray {
+  @apply bg-surface-100 border-2 border-surface-300 rounded-xl p-4 max-h-96 overflow-y-auto scrollbar-hide;
+}
+
+.piece-slot {
+  @apply w-16 h-16 bg-white border-2 border-dashed border-surface-300 rounded-lg flex items-center justify-center cursor-pointer hover:border-primary hover:bg-primary hover:bg-opacity-5 transition-all duration-200;
+}
+
+.piece-slot.occupied {
+  @apply border-surface-400 bg-surface-50;
+}
+
+.piece-slot.drop-target {
+  @apply border-primary bg-primary bg-opacity-10 animate-pulse;
+}
+
+.thumbnail-preview {
+  @apply border-2 border-surface-300 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-200;
+}
+
+.rotation-controls {
+  @apply flex gap-2 p-2 bg-white rounded-lg shadow-md;
+}
+
+.rotation-btn {
+  @apply w-8 h-8 bg-surface-100 hover:bg-surface-200 border border-surface-300 rounded-md flex items-center justify-center text-surface-600 hover:text-surface-800 transition-all duration-200;
+}
+
+@keyframes pieceConnect {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.piece-connect {
+  animation: pieceConnect 0.3s ease-out;
+}
+
+@keyframes puzzleComplete {
+  0% { transform: scale(1) rotate(0deg); }
+  25% { transform: scale(1.05) rotate(1deg); }
+  50% { transform: scale(1.1) rotate(-1deg); }
+  75% { transform: scale(1.05) rotate(1deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+.puzzle-complete {
+  animation: puzzleComplete 0.6s ease-out;
+}
 
 /* Custom responsive utilities */
 @media (max-width: 640px) {
   .mobile-stack {
     @apply flex-col space-y-4 space-x-0;
+  }
+  
+  .jigsaw-canvas {
+    @apply min-h-64;
+  }
+  
+  .piece-tray {
+    @apply max-h-48;
   }
 }
 
@@ -124,10 +202,18 @@
   .tablet-grid {
     @apply grid-cols-2;
   }
+  
+  .jigsaw-canvas {
+    @apply min-h-96;
+  }
 }
 
 @media (min-width: 1024px) {
   .desktop-grid {
     @apply grid-cols-3;
+  }
+  
+  .jigsaw-canvas {
+    @apply min-h-[32rem];
   }
 }
